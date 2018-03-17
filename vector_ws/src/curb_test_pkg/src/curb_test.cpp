@@ -1,6 +1,7 @@
 #include<ros/ros.h>
 #include<geometry_msgs/PoseStamped.h>
 #include<iostream>
+#include<curb_test_pkg/vector_map_info.h>
 
 using namespace std;
 

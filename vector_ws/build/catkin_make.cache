@@ -1,2 +1,0 @@
-curb_test_pkg
--DCATKIN_DEVEL_PREFIX=/home/softkoo/vector_ws/devel -DCMAKE_INSTALL_PREFIX=/home/softkoo/vector_ws/install -G Unix Makefiles

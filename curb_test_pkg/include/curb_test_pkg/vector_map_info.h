@@ -3,12 +3,13 @@ namespace vector_map{
 	{
 		public:
 			point(){}
+			point(int pid, double b, double l, double h, double bx, double ly,double ref, double mcode1,double mcode2, double mcode3);
 			int PID;
 			double B;
 			double L;
-			double H;
-			double Bx;
-			double Ly;
+			double H; //z
+			double Bx; //y
+			double Ly; //x
 			double Ref;
 			double MCODE1;
 			double MCODE2;
@@ -66,4 +67,10 @@ namespace vector_map{
 	{
 		
 	};
+	void add_point(double x, double y, double z);
+	void make_point_csv_file();
+	void delete_all_points();
+	point* pt_vector_back();
+	int get_point_cnt();
+
 }

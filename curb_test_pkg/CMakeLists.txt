@@ -21,6 +21,6 @@ include_directories(
  ${catkin_INCLUDE_DIRS}
 )
 
-add_executable(curb_test_node src/curb_test.cpp src/point_add.cpp)
+add_executable(curb_test_node src/save_point_node.cpp src/pt_vector src/make_csv)
 target_link_libraries(curb_test_node ${catkin_LIBRARIES})
 add_dependencies(curb_test_node biginner_gencpp)
